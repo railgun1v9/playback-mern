@@ -1,3 +1,10 @@
+## Playback React Frontend
+Things I need to implement
+1. Sidebar that has buttons with tooltips of their titles
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
