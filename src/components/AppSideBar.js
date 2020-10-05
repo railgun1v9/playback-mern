@@ -1,8 +1,12 @@
 import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import React, { Component } from 'react';
-// Be sure to include styles at some point, probably during your bootstraping
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// Styles
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './styles/AppSideBar.css';
+
 
 
 class AppSideBar extends Component {
@@ -27,11 +31,11 @@ class AppSideBar extends Component {
                 <SideNav.Nav  defaultSelected="home">
                     <NavItem eventKey="home">
                         <NavIcon>
-                            <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
+                            <FontAwesomeIcon icon={['fas', 'home']} />
                         </NavIcon>
                         <NavText>
                             Home
-                    </NavText>
+                        </NavText>
                     </NavItem>
                     <NavItem eventKey="charts">
                         <NavIcon>
@@ -39,7 +43,7 @@ class AppSideBar extends Component {
                         </NavIcon>
                         <NavText>
                             Charts
-                    </NavText>
+                        </NavText>
                         <NavItem eventKey="charts/linechart">
                             <NavText>
                                 Line Chart

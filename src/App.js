@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import AppSideBar from './components/AppSideBar';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fas);
 
 function App() {
   return (
@@ -20,7 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <AppSideBar></AppSideBar>
+      <AppSideBar />
     </div>
 
   );
