@@ -45,6 +45,23 @@ class AppSideBar extends Component {
                             Library
                         </NavText>
                     </NavItem>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    <NavItem className="spacer" disabled="true"/>
+                    
+                    <NavItem eventKey="settings">
+                        <NavIcon>
+                            <FontAwesomeIcon icon={['fas', 'cogs']} size='lg' />
+                        </NavIcon>
+                        <NavText>
+                            Settings
+                        </NavText>
+                    </NavItem>
                 </SideNav.Nav>
             </SideNav>
         );
