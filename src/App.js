@@ -5,6 +5,7 @@ import AppSideBar from './components/AppSideBar';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from "@fortawesome/free-solid-svg-icons";
 
+// Adding FontAwesome solid to library
 library.add(fas);
 
 function App() {

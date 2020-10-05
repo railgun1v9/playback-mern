@@ -31,29 +31,19 @@ class AppSideBar extends Component {
                 <SideNav.Nav  defaultSelected="home">
                     <NavItem eventKey="home">
                         <NavIcon>
-                            <FontAwesomeIcon icon={['fas', 'home']} />
+                            <FontAwesomeIcon icon={['fas', 'home']} size='lg' />
                         </NavIcon>
                         <NavText>
                             Home
                         </NavText>
                     </NavItem>
-                    <NavItem eventKey="charts">
+                    <NavItem eventKey="library">
                         <NavIcon>
-                            <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
+                            <FontAwesomeIcon icon={['fas', 'hdd']} size='lg' />
                         </NavIcon>
                         <NavText>
-                            Charts
+                            Library
                         </NavText>
-                        <NavItem eventKey="charts/linechart">
-                            <NavText>
-                                Line Chart
-                        </NavText>
-                        </NavItem>
-                        <NavItem eventKey="charts/barchart">
-                            <NavText>
-                                Bar Chart
-                        </NavText>
-                        </NavItem>
                     </NavItem>
                 </SideNav.Nav>
             </SideNav>
